@@ -1,0 +1,32 @@
+{
+  "name": "@pilchard/aws-cloudfront-function",
+  "version": "0.1.0",
+  "description": "Type definitions for AWS CloudFront Function events and runtime helper methods",
+  "license": "MIT",
+  "sideEffects": false,
+  "types": "index.d.ts",
+  "files": [
+    "index.d.ts",
+    "source",
+    "license-mit"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": "github:pilchard/aws-cloudfront-function",
+  "author": {
+    "name": "Bryan Reedy",
+    "url": "https://github.com/pilchard"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "ts",
+    "types",
+    "aws",
+    "CloudFront",
+    "CloudFrontFunction"
+  ]
+}

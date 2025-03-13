@@ -1,32 +1,33 @@
 {
-  "name": "@pilchard/aws-cloudfront-function",
-  "version": "0.1.0",
-  "description": "Type definitions for AWS CloudFront Function events and runtime helper methods",
-  "license": "MIT",
-  "sideEffects": false,
-  "types": "index.d.ts",
-  "files": [
-    "index.d.ts",
-    "source",
-    "license-mit"
-  ],
-  "engines": {
-    "node": ">=18"
-  },
-  "repository": "github:pilchard/aws-cloudfront-function",
-  "author": {
-    "name": "Bryan Reedy",
-    "url": "https://github.com/pilchard"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "typescript",
-    "ts",
-    "types",
-    "aws",
-    "CloudFront",
-    "CloudFrontFunction"
-  ]
+	"name": "@pilchard/aws-cloudfront-function",
+	"version": "0.1.0",
+	"description": "Type definitions for AWS CloudFront Functions handlers, events, and runtime helper methods",
+	"license": "MIT",
+	"types": "index.d.ts",
+	"repository": "github:pilchard/aws-cloudfront-function",
+	"author": {
+		"name": "Bryan Reedy",
+		"url": "https://github.com/pilchard"
+	},
+	"projects": [
+		"https://github.com/pilchard/imgproxy-aws-cdk"
+	],
+	"dependencies": {
+		"@types/node": "^18.13.10"
+	},
+	"devDependencies": {
+		"@pilchard/aws-cloudfront-function": "file:./",
+		"dprint": "^0.49.0"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"keywords": [
+		"typescript",
+		"ts",
+		"types",
+		"aws",
+		"CloudFront",
+		"CloudFront Functions"
+	]
 }
